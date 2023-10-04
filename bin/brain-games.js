@@ -1,1 +1,4 @@
-console.log('Welcome to the Brain Games!');
+import {even} from "../src/games.js";
+
+even();
+
