@@ -1,4 +1,6 @@
-import {even} from "../src/games.js";
+#!/usr/bin/env node
 
-even();
+import {greetUser} from "../src/cli";
+
+greetUser();
 
