@@ -1,22 +1,21 @@
-import {startGame} from "./startGame.js";
+import startGame from './games/startGame.js';
 
 export const even = () => {
-    startGame('even');
-}
+  startGame('even');
+};
 
 export const calc = () => {
-    startGame('calc');
-}
+  startGame('calc');
+};
 
 export const gcd = () => {
-    startGame('gcd');
+  startGame('gcd');
 };
 
 export const progression = () => {
-    startGame('progression');
-}
+  startGame('progression');
+};
 
 export const prime = () => {
-    startGame('prime');
-}
-
+  startGame('prime');
+};
