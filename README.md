@@ -1,6 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Heaven-Tonight/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Heaven-Tonight/frontend-project-44/actions)
 
+### Maintainability Badge
+[![Maintainability](https://api.codeclimate.com/v1/badges/3c5b49a9948f4f4c88f7/maintainability)](https://codeclimate.com/github/Heaven-Tonight/frontend-project-44/maintainability)
+
 ### brain-even 
 [![asciicast](https://asciinema.org/a/i3oov5AzNsTsp0XSPKBe2V9wF.svg)](https://asciinema.org/a/i3oov5AzNsTsp0XSPKBe2V9wF)
 
