@@ -5,7 +5,16 @@ brain-games:
 	node bin/brain-games.js
 
 publish:
-	ls
+	npm publish --dry-run
 
 lint:
 	npx eslint
+
+test-coverage:
+	npm test -- --coverage --coverageProvider=v8
+
+test:
+	npm test
+
+.PHONY: test
+
