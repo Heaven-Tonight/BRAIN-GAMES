@@ -1,7 +1,6 @@
 <h1  align="center">BRAIN-GAMES</h1> 
-<p>Approve your mathematical skills with <span style="color:#2E8B57">brain-games</span></p>
 
-___
+Approve your mathematical skills with **brain-games**
 
 To win you need to answer three questions correctly in a row.
 
@@ -18,7 +17,9 @@ ___
 
 1. Download game
 
-```git clone https://github.com/Heaven-Tonight/BRAIN-GAMES.git```
+```
+git clone https://github.com/Heaven-Tonight/BRAIN-GAMES.git
+```
 
 2. Use commands shown in the video below to start the games
 
