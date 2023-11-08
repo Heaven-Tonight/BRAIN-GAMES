@@ -1,5 +1,5 @@
 <h1  align="center">BRAIN-GAMES</h1> 
-Approve your mathematical skills with <span style="color:#2E8B57">brain-games</span>
+<p>Approve your mathematical skills with <span style="color:#2E8B57">brain-games</span></p>
 
 ___
 
