@@ -1,6 +1,5 @@
 import generateRandomNum from '../utils.js';
 
-const generateNumPossiblyPrime = generateRandomNum;
 const isPrime = (number) => {
   if (number <= 1) {
     return 'no';
@@ -21,7 +20,7 @@ const isPrime = (number) => {
 };
 
 export default {
-  question: generateNumPossiblyPrime,
+  question: generateRandomNum,
   rules: 'Answer "yes" if given number is prime. Otherwise answer "no".',
   correct: (question) => isPrime(question),
 };
