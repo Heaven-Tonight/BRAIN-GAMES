@@ -15,13 +15,21 @@ ___
 
 **How to use**:
 
-1. Download game
+### Download game
 
 ```
 git clone https://github.com/Heaven-Tonight/BRAIN-GAMES.git
 ```
 
-2. Use commands shown in the video below to start the games
+### Install packages:
+
+```
+npm install
+```
+```
+npm link
+```
+### Use commands shown in the video below to start the games
 
 ### brain-even 
 [![asciicast](https://asciinema.org/a/i3oov5AzNsTsp0XSPKBe2V9wF.svg)](https://asciinema.org/a/i3oov5AzNsTsp0XSPKBe2V9wF)
