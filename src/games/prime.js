@@ -1,26 +1,28 @@
-import generateRandomNum from '../utils.js';
+import { generateRandomNum } from '../utils.js';
 
 const isPrime = (number) => {
   if (number <= 1) {
-    return 'no';
+    return false;
   }
   if (number === 2 || number === 3) {
-    return 'yes';
+    return true;
   }
   if (number % 2 === 0 || number % 3 === 0) {
-    return 'no';
+    return false;
   }
 
   for (let i = 5; i <= Math.sqrt(number); i += 6) {
     if (number % i === 0 || number % (i + 2) === 0) {
-      return 'no';
+      return false;
     }
   }
-  return 'yes';
+  return true;
 };
+
+const getAnswer = (number) => (isPrime(number) ? 'yes' : 'no');
 
 export default {
   question: generateRandomNum,
   rules: 'Answer "yes" if given number is prime. Otherwise answer "no".',
-  correct: (question) => isPrime(question),
+  correct: (question) => getAnswer(question),
 };

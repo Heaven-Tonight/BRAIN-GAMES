@@ -1,4 +1,4 @@
-import generateRandomNum from '../utils.js';
+import { generateRandomNum } from '../utils.js';
 
 const generateRandomNumPair = () => `${generateRandomNum(10)} ${generateRandomNum(10)}`;
 

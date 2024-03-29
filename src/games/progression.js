@@ -1,4 +1,4 @@
-import generateRandomNum from '../utils.js';
+import { generateRandomNum } from '../utils.js';
 
 const generateRandomMathProgression = (length = 10) => {
   const progression = [];

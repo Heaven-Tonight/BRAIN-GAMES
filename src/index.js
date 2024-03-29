@@ -1,16 +1,13 @@
 import readlineSync from 'readline-sync';
 import games from './games/index.js';
 
+const attemptsCount = 3;
 const startGame = (gameName) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
 
   console.log(`Hello, ${name}!`);
   console.log(games[gameName].rules);
-
-  const attemptsCount = 3;
-  let correctAnswersCount = 0;
-
   for (let i = 0; i < attemptsCount; i += 1) {
     const { question, correct } = games[gameName];
     const currentQuestion = question();
@@ -24,11 +21,8 @@ const startGame = (gameName) => {
       return;
     }
     console.log('Correct!');
-    correctAnswersCount += 1;
   }
-  if (correctAnswersCount === attemptsCount) {
-    console.log(`Congratulations, ${name}! You've won!`);
-  }
+  console.log(`Congratulations, ${name}! You've won!`);
 };
 export const even = () => startGame('even');
 export const calc = () => startGame('calc');
