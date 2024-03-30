@@ -1,5 +1,7 @@
 import { generateRandomNum } from '../utils.js';
+import startGame from '../index.js';
 
+const rules = 'What number is missing in the progression?';
 const generateRandomMathProgression = (length = 10) => {
   const progression = [];
   const replacer = '..';
@@ -15,8 +17,7 @@ const generateRandomMathProgression = (length = 10) => {
   progression[randomIdx] = replacer;
   return progression.join(' ');
 };
-
-const getMissedProgressionNum = (progression) => {
+const getMissedProgressionItem = (progression) => {
   const replacer = '..';
   const values = progression.split(' ');
   const missedNumIdx = values.indexOf(replacer);
@@ -32,8 +33,8 @@ const getMissedProgressionNum = (progression) => {
   return (prev1 + step).toString();
 };
 
-export default {
-  question: generateRandomMathProgression,
-  rules: 'What number is missing in the progression?',
-  correct: (question) => getMissedProgressionNum(question),
+const progression = () => {
+  startGame(rules, generateRandomMathProgression, getMissedProgressionItem);
 };
+
+export default progression;
