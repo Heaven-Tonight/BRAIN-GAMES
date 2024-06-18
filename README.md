@@ -18,7 +18,7 @@ ___
 ### Download game
 
 ```
-git clone https://github.com/Heaven-Tonight/BRAIN-GAMES.git
+git clone https://github.com/mad-chameleon/brain-games.git
 ```
 
 ### Install packages:
